@@ -56,7 +56,7 @@ Once you've had a look at the molecule, you are going to want to strip out the c
 
 .. code-block:: bash
 
-   $ grep -v HOH 1aki.pdb > 1AKI_clean.pdb
+   $ grep -v HOH 1AKI.pdb > 1AKI_clean.pdb
 
 Note that such a procedure is **not universally appropriate** (e.g., the case of a tightly bound or otherwise functional active-site water molecule). For our intentions here, we do not need crystal water.
 
